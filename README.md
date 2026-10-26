@@ -81,6 +81,9 @@ templates/         modèles de pages HTML
 logo/  ico/        logo du site et icône d'onglet
 zuul/  gozer/      calques des cartes full-art
 data/              créé au premier lancement : ta collection (collection.db) et tes sauvegardes
+paquets/           différents type de paquets de carte
+tor/               tor expert bundle (tor.exe) présent dans le dossier"
+sons/              plusieurs sons d'évènements et une musique libre de droit
 ```
 
 ## Données et respect de Wikipédia
