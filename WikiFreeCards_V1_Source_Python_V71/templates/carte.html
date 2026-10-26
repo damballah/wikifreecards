@@ -1,0 +1,40 @@
+      <div class="carte-cadre">
+        <article class="carte" data-rarete="$code" data-motif="$motif" data-reflet="$reflet" data-titre="$titre_attr" data-fichier="$fichier" data-qr="$qr_attr" data-id="$id" data-stats="$stats_etat"$style_carte>
+          <div class="carte__visuel">
+            <div class="carte__sans-image" aria-hidden="true"$sans_image_hidden>
+              <span class="carte__initiale">$initiale</span>
+              <span class="carte__legende">no-image</span>
+            </div>
+            $image
+            <button class="carte__zoom" type="button" aria-haspopup="dialog" aria-label="Agrandir la carte"></button>
+            <span class="carte__badge$badge_long" title="$rarete_nom" aria-label="Rareté : $rarete_nom">$symbole</span>
+            <label class="carte__selection" title="Sélectionner cette carte"><input type="checkbox" class="carte__case" aria-label="Sélectionner la carte"></label>
+            $etiquette
+            $lien
+            <button class="carte__favori" type="button" aria-pressed="$favori_etat" aria-label="$favori_libelle">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.6l-5.8 3.1 1.1-6.5L2.6 9.6l6.5-.9z"/></svg>
+            </button>
+            $bouton_sensible
+            $bouton_rafraichir
+            $bouton_png
+            $bouton_pdf
+            $bouton_word
+          </div>
+
+          <div class="carte__corps">
+            <div class="carte__categories">$categories</div>
+            <h2 class="carte__titre">$titre</h2>
+            $description
+            $intro
+          </div>
+
+          <footer class="carte__pied">
+            <span class="carte__vues" title="$vues_titre">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              <strong>$vues</strong><span>/jour</span>
+            </span>
+            <span class="carte__stats">$stats</span>
+            $horodatage
+          </footer>
+        </article>
+      </div>
