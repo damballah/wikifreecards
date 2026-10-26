@@ -11,7 +11,7 @@ WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregist
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://github.com/damballah/wikifreecards/blob/main/media/collection.png" width="200" alt="Image 1" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/collection.png" width="300" alt="Image 1" />
       <br />
       <sub><b>Affichage de la collection</b></sub>
     </td>
