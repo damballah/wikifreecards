@@ -6,7 +6,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 ![Fonctionne en local](https://img.shields.io/badge/donn%C3%A9es-100%25%20locales-green.svg)
 
-WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregistre tout dans un seul fichier (SQLite) et s'utilise depuis ton navigateur. Pas de compte, pas de serveur à louer, pas de publicité.
+WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregistre tout dans un seul fichier (SQLite) et s'utilise depuis ton navigateur. Pas de compte, pas de serveur à louer, pas de publicité. Vibe codé avec Claude AI.
 
 <!-- Ajoute ici une ou deux captures d'écran, par exemple :
 ![La collection](docs/images/collection.png)
