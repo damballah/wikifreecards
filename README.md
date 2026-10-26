@@ -36,7 +36,7 @@ La liste complète des fonctionnalités est dans [`FONCTIONNALITES.md`](FONCTION
 
 ## Installation
 
-Il te faut **Python 3.9 ou plus récent** (testé avec 3.12). Edge ou Chrome sont recommandés.
+Il te faut **Python 3.12 ou plus récent** (testé avec 3.12). Edge ou Chrome sont recommandés.
 
 ```bash
 git clone https://github.com/damballah/wikifreecards.git
