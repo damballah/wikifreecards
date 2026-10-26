@@ -1,5 +1,5 @@
-WIKICARTES — LISTE SIMPLE DES FONCTIONNALITÉS, VERSION PAR VERSION
-===================================================================
+WikiFreeCards — LISTE SIMPLE DES FONCTIONNALITÉS, VERSION PAR VERSION
+=====================================================================
 (Chaque « version » correspond à une session de travail, de la première demande jusqu'à aujourd'hui.
  Les nouveautés de chaque version s'ajoutent à celles des précédentes.)
 
