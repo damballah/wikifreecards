@@ -1,0 +1,277 @@
+WIKICARTES — LISTE SIMPLE DES FONCTIONNALITÉS, VERSION PAR VERSION
+===================================================================
+(Chaque « version » correspond à une session de travail, de la première demande jusqu'à aujourd'hui.
+ Les nouveautés de chaque version s'ajoutent à celles des précédentes.)
+
+
+VERSION 1 — Les débuts (12 au 14 octobre)
+-------------------------------------------
+- Programme Python local qui tire de 1 à 20 articles Wikipédia au hasard (nombre choisi au départ) : titre, courte description,
+  lien de l'image (« no-image » s'il n'y en a pas).
+- Introduction de l'article (3 phrases au plus ou équivalent en caractères).
+- Classement des articles par popularité (vues par jour) en rangs : Commun, Peu commun, Rare, Super rare, Ultra rare, Légendaire.
+- Seuils des rangs modifiables ; tirage pondéré pour que tous les rangs puissent sortir.
+- Protection contre l'erreur « trop de requêtes » de Wikipédia (limitation et pauses).
+- Page web locale avec les cartes : taille réglable, agrandissement d'une carte au clic (même sans image), date et heure sur une ligne.
+- QR code vers l'article (au verso de la carte, centré, avec le logo du jeu).
+- Enregistrement d'une carte en PNG (disquette), en PDF et en Word.
+- Base de données locale (SQLite) : paramètres et collection.
+- Page Configuration pour tout régler depuis le navigateur.
+
+VERSION 2 — Le site prend forme (14 octobre)
+----------------------------------------------
+- Lettres des rangs modifiables (L, UR, SR…).
+- Logo et titre du site en haut à gauche, réglables.
+- Page Recherche : chercher une carte sur Wikipédia avec un formulaire.
+- Corbeille : supprimer une carte, la restaurer ou la supprimer pour de bon.
+- Catégories de cartes (bandeaux au-dessus du titre) et filtre par catégorie.
+- Thèmes de couleurs du site.
+
+VERSION 3 — Confort et profil (15 octobre)
+--------------------------------------------
+- Cartes centrées dans la page, même quand il y en a peu.
+- Décompte à l'ouverture d'un paquet, pour ménager Wikipédia.
+- Réserve de cartes préchargées (le paquet s'ouvre plus vite).
+- Statistiques sous les cartes : langues, modifications, liens entrants, taille de l'article.
+- Icônes qui n'apparaissent que si elles sont utiles ; 11 effets au survol de la carte ; animations de l'agrandissement.
+- Recherche dans la collection (par titre) ; mention « contenu issu de Wikipédia » en bas de page ; compteurs dans la liste des catégories.
+- Page Profil avec des vitrines de cartes à exposer.
+
+VERSION 4 — Créateur de cartes (16 octobre, matin)
+----------------------------------------------------
+- Page « Créateur de cartes » : fabriquer ses propres cartes, avec les couleurs des rangs ; elles s'exportent aussi en PNG, PDF et Word.
+- Base de données renommée « collection.db ».
+- Pied de carte sur une seule ligne (les éléments se compactent par étapes).
+- Rang « Personnalisée » dans la Configuration pour les cartes créées.
+- Page Recherche sans statistiques (moins de requêtes envoyées à Wikipédia).
+
+VERSION 5 — Hall des collections (16 octobre, soir)
+-----------------------------------------------------
+- Hall des collections : partager et visiter les collections d'autres collectionneurs, sans serveur central, sans inscription ; identité
+  signée, pseudos, annuaire, lecture seule, rapatriement de cartes sans passer par Wikipédia.
+- Connexion par Tor avec aide intégrée (détection, bouton « Lancer Tor », lancement automatique).
+- Catégorie automatique « Animée » (images GIF) ; noms des 3 catégories automatiques modifiables.
+- 5 nouveaux styles de paquet (10 en tout), 5 nouvelles animations d'ouverture, 5 nouveaux reflets.
+- Section « Disposition » : emplacement et taille du menu, barre d'outils, place du paquet.
+
+VERSION 6 — Personnalisation poussée (21 octobre)
+---------------------------------------------------
+- Configuration plus pratique : menu « Aller à », bouton « Remonter », sections mieux ordonnées.
+- Paquet personnalisé : ta propre image (PNG/JPEG), 5 formes, cadrage, contenu.
+- Alignement du titre, de la biographie, des infos et du logo (5 positions pour le logo) ; emojis dans le titre et la biographie.
+- Corbeille adaptée au menu en colonne à gauche.
+- Cartes personnalisées en double : repérées par titre, sous-titre, description et surnom identiques.
+- Statistiques calculées aussi pour les cartes issues d'un paquet ; confettis et paillettes à l'ouverture.
+- Page Recherche : 20 résultats, bouton « Voir plus de résultats », tri par vues, pagination en haut et en bas.
+- Vitrines : filtres par rang et tri ; recherche élargie (titre, sous-titre, description).
+- 20 thèmes pour le site ; effets au survol et au repos du paquet.
+- Sauvegardes : 4 types (ultra complète, complète, paramètres, collection).
+
+VERSION 7 — Paquets, sons, contenu sensible (22 octobre, matin)
+-----------------------------------------------------------------
+- Sauvegardes utilisables depuis la Configuration (créer, importer, restaurer, supprimer, télécharger).
+- Stock de paquets prêts : paquets de 5, 10 ou 20 cartes, avec décompte en minutes et secondes et légende « k paquets prêts sur N ».
+- Fenêtre de pré-sélection des cartes du paquet : retirer une carte (✕) avant de valider.
+- Sons pour 8 événements et musique d'ambiance sans coupure entre les pages ; haut-parleur avec volume mémorisé ; lancement
+  possible dans une fenêtre d'application (Edge/Chrome).
+- Recherche dans la collection sur titre, sous-titre et description ; tri par défaut : vues par jour les plus élevées d'abord.
+- Cases d'export (PNG/PDF/Word) déplacées dans la section Export ; son d'effet joué dès le clic sur le paquet.
+- Contenu sensible : image floutée, icône +18, section dédiée dans la Configuration.
+- Icône ⟳ pour rafraîchir l'image d'une carte depuis Wikipédia (désactivée par défaut).
+- La pagination du bas garde la position de l'écran ; dans le Hall, un clic n'importe où sur une carte l'agrandit.
+
+VERSION 8 — Serveur réseau, téléphone, finitions (22 octobre, suite)
+----------------------------------------------------------------------
+Pages et ouverture des paquets
+- Page « Paquets » : page de démarrage dédiée à l'ouverture ; la collection est une page à part.
+- Les cartes validées vont directement dans la collection (elles ne s'affichent plus sous le paquet).
+
+Réseau et accès
+- Le programme peut servir d'autres appareils : téléphone, autre ordinateur du réseau local, tunnel (ngrok, Cloudflare…), adresse publique.
+- Pas de mot de passe par défaut ; code d'accès facultatif.
+- Au lancement, test des adresses du réseau avec aide pour le pare-feu Windows (commande fournie).
+- Compatible avec les pages servies en https par un tunnel (fin du faux message « lance main.py »).
+- Les réglages avancés (Wikipédia, Réserve, Hall, Accès réseau, Système) ne sont visibles et modifiables que depuis l'ordinateur
+  et le réseau local (case dans la section Système, cochée par défaut).
+- Hall des collections uniquement par Tor, avec préférence pour des relais d'entrée du même pays (plus rapide).
+
+Contenu sensible
+- Aucune liste de mots fournie : tu écris ta propre liste (et tes exceptions) dans la Configuration ; liste vide = rien n'est flouté.
+- L'état de l'icône +18 (image montrée ou floutée) est enregistré d'un lancement à l'autre.
+- L'icône +18 fonctionne partout : collection, recherche, carte agrandie (y compris dans la Recherche), collections visitées.
+- Dans la page Profil, les vignettes de la liste « choisir une carte » sont floutées aussi.
+
+Recherche
+- Des cases à cocher (titre, sous-titre, description) pour chacune des trois recherches : Collection, Recherche Wikipédia, Profil.
+  Par défaut : titre et sous-titre seulement.
+
+Apparence et disposition
+- Logo placé au-dessus du menu quand celui-ci est en colonne à gauche ; le menu se place sous le logo, quelle que soit sa hauteur.
+- Pied de page (texte et ligne) centré sur le contenu même avec le menu à gauche.
+- Les icônes des cartes sans étoile (collection d'un autre collectionneur, page Recherche) se calent en haut à droite et se
+  suivent dessous, comme dans ta collection.
+- Affichage téléphone : détection automatique de l'écran étroit ou tactile ; menu en icônes, filtres repliés derrière un bouton,
+  cartes sur deux colonnes ; deux réglages dans Apparence (affichage sur téléphone, en-tête compact/minimal/complet).
+- Menu « Aller à » de la Configuration qui ne cache plus le haut des sections ; bouton « Filtres » retiré de la page Paquets.
+
+Téléphone : pré-sélection et affichage
+- Ouverture d'un paquet sur téléphone : les cartes forment une PILE à découvrir (posées plus ou moins droites), plein écran, sans défilement.
+  On glisse à droite (ou bouton rond « collection ») pour garder la carte : elle part en vert lumineux ; on glisse à gauche (ou bouton
+  rond « suppression ») pour la supprimer : elle part en rouge lumineux. Les sons « carte dans la collection » et « carte retirée »
+  sont joués ; la fenêtre se ferme après la dernière carte.
+- Pile plus fine : cartes presque droites (3° au plus), boutons ronds remontés et entiers (hauteur réellement visible du navigateur), petit
+  haut-parleur du lecteur caché pendant le choix, envol des cartes rapide (0,21 s) avec enchaînement immédiat de la carte suivante ; les suppressions
+  partent au serveur en arrière-plan. Les lueurs verte et rouge sont préparées en mémoire dès le clic sur le paquet, puis supprimées une fois le choix fini.
+- Pré-sélection du paquet (téléphone et ordinateur) : sur chaque carte, le lien ↗ vers l'article Wikipédia (en haut à droite) et, pour une carte à
+  contenu sensible, l'icône +18 (montrer/flouter l'image, état enregistré) sont utilisables pour aider à choisir ; le reste de la carte reste inerte.
+- Sur petit écran sans l'affichage téléphone, la pré-sélection en grille reste, avec des croix rouges de suppression plus petites.
+- Collection sur téléphone : les pastilles de rang montrent le symbole et le nombre entre parenthèses, sans le nom du rang.
+- Profil sur téléphone : « Changer » et « Retirer » deviennent ⇄ et ✕.
+
+Recherche par pertinence
+- Page Recherche : tri par défaut par PERTINENCE (et non plus par vues). Le titre exact passe en premier, puis les titres qui commencent
+  par la saisie, puis ceux qui contiennent tous les mots ; le sous-titre et l'introduction comptent un peu ; homonymies et listes en dernier.
+  Une requête de plus au premier lot retrouve les articles dont le titre commence par la saisie. « Les plus vues d'abord » et « Titre A→Z »
+  restent disponibles.
+
+Full-art, GOD PACK, grands écrans
+- Créateur de cartes → onglet « ✨ Full-art » : on choisit une carte de sa collection (même recherche que le profil), un « Zuul » et un « Gozer »
+  (fichiers .png des dossiers « zuul » et « gozer » à la racine du programme, nom affiché sans l'extension) et jusqu'à 3 effets parmi 12
+  (holographique, paillettes, reflet doré, prisme, aurore boréale, galaxie, éclair de lumière, rayons arc-en-ciel, braises, cristal, chrome liquide,
+  néon pulsé). Les calques passent sous les textes ; le dos (PDF, Word) reçoit les mêmes calques sans toucher au logo ni au QR code (exports PNG, PDF et Word vérifiés).
+- GOD PACK : 1 chance sur 10 000 (réglable, Configuration → Paquets) d'ouvrir un paquet de cartes TOUTES légendaires, annoncé par un feu d'artifice
+  plein écran, une fanfare de trompettes et le message « GOD PACK !!! » (zoom/dézoom) sur lequel on clique pour ouvrir le paquet. Bouton d'essai dans la Configuration.
+- Grands écrans (jusqu'à 3440 px et plus) : contenu centré à droite du menu, cartes, paquet, menu et en-tête qui grandissent avec l'écran.
+- Sur téléphone, l'adresse nue du programme mène à l'ouverture des paquets.
+- Chaque page affiche son titre sous la ligne de biographie.
+
+Finitions du full-art, du GOD PACK et des images
+- GOD PACK : de vrais sons d'explosion (boum, souffle, crépitements, placés dans le stéréo) accompagnent chaque gerbe du feu d'artifice ; tout s'arrête au clic sur le message.
+- Full-art : les cartes full-art apparaissent aussi dans le Hall (collection et profil partagés) : les calques PNG sont relayés par le programme du visiteur, vérifiés (signature, dimensions)
+  et jamais servis s'ils ne servent pas à une carte partagée.
+- 10 Zuul et 10 Gozer fournis (cadre doré refait, bord à bord et d'un or réaliste ; argent poli, art déco, circuit néon, vitrail, écailles de dragon, givre, nacre, rubis ;
+  aurore boréale, constellation, flammes, éclairs, mandala doré, étoiles filantes, cristaux, brume mystique…).
+- Effets Paillettes, Galaxie et Braises : points aux positions, tailles, durées et mouvements tirés au hasard (stables pour une même carte). Reflet doré : plus de barre sombre sur Android (dégradés sans « transparent »).
+- Cases à cocher des effets alignées avec leurs libellés.
+- Carte sans image principale : le bouton ⟳ propose les autres images de l'article en vignettes (grille adaptée à l'écran et au nombre d'images, pagination) ; l'utilisateur choisit l'illustration.
+
+Full-art définitif, cadres fins, choix d'image validé, rapatriement
+- Full-art DÉFINITIF : « Appliquer » ouvre un message (« Opération irréversible ») ; la carte ne pourra plus revenir à son état d'origine, ni retirer ni modifier son full-art.
+  Le serveur le garantit (aucune route de retrait, une 2e application est refusée) ; il n'y a donc plus de bouton « Retirer ».
+- Cadres Zuul fins (environ 4 % de la largeur) et sans filet blanc au bord, de sorte qu'aucune information (palier, titre, sous-titre, description, œil des vues, statistiques, date) n'est
+  recouverte ; sous un Zuul, le pied de carte est simplement repoussé de quelques pixels vers l'intérieur (rien ne change de taille).
+- Rapatriement d'une carte full-art depuis le Hall : elle arrive en full-art ; ses calques sont copiés (et vérifiés) dans tes dossiers « zuul » et « gozer », sans jamais écraser un fichier
+  existant (un fichier différent du même nom donne « Nom (importé) »).
+- Choix d'illustration : un appui sur une vignette la sélectionne (coche), « ✓ Valider ce choix » l'enregistre ; on peut aussi CHANGER l'illustration d'une carte qui en a déjà une
+  quand l'article propose d'autres images ; la carte visible est mise à jour tout de suite, sans recharger la page.
+
+Correctifs : logos dans le choix d'image, carte agrandie, vrai GOD PACK
+- Choix d'illustration : les LOGOS sont maintenant proposés (dessins SVG, logos larges, logos d'infobox hébergés sur fr.wikipedia) ; un SVG devient son rendu PNG (960 px) pour la carte,
+  avec des vignettes de 330 px (largeurs standard de Wikimedia). Seules les icônes d'interface, les logos de projets Wikimedia, les drapeaux, les sons et les documents sont écartés.
+- Choisir une image depuis la carte AGRANDIE : la nouvelle image apparaît tout de suite sur la carte agrandie (qui reste ouverte) et sur celle de la collection ;
+  Échap ferme seulement la fenêtre de choix.
+- GOD PACK réparé : le paquet est choisi parmi les articles les plus consultés ; les cartes dont le rang réel est légendaire passent d'abord, puis les plus vues des autres sont PROMUES
+  légendaires par le GOD PACK (elles gardent leurs vraies vues). Un GOD PACK compte donc toujours le nombre de cartes du paquet, toutes légendaires, et l'annonce se déclenche toujours.
+  Si le top des articles les plus vus est indisponible, le paquet est ordinaire.
+
+Illustration d'une carte : toutes les images, changer, retirer
+- L'icône ⟳ liste TOUTES les images de l'article : l'image que la carte porte déjà (repérée « Actuelle »), l'image principale choisie par Wikipédia (« Principale »), puis toutes
+  les autres (logos, photos, cartes, SVG...). Les icônes et pictogrammes sont listés aussi mais cachés tant qu'on ne coche pas « Afficher aussi les icônes et petites images ».
+- On peut CHANGER l'image d'une carte qui en a déjà une : on touche une vignette, puis « ✓ Valider ce choix ».
+- Bouton « 🚫 Retirer l'illustration » (sur une carte qui a une image) : la carte redevient « Sans illustration » ; on peut en remettre une quand on veut avec ⟳.
+- Ni ⟳ ni ces choix sur les cartes FULL-ART (illustration définitive) et les cartes personnalisées. Rien n'est plus enregistré automatiquement : tout passe par la validation.
+- Depuis la carte agrandie : le changement ou le retrait est visible tout de suite sur la carte agrandie et sur celle de la collection.
+
+Liste complète des images d'un article
+- Le choix d'illustration réunit deux sources : les images AFFICHÉES dans la page, tous chapitres confondus (y compris celles qu'ajoutent les modèles et Wikidata), et les fichiers utilisés par l'article.
+  Les suites de résultats de Wikipédia sont suivies (rien n'est perdu quand la liste est longue) et les fichiers renommés sont retrouvés ; jusqu'à 200 images par article, dans l'ordre de la page.
+- L'image que la carte porte déjà est toujours listée (« Actuelle »), même si son adresse n'est pas classique.
+
+Images : liste vraiment complète, GIF réellement animés
+- La liste d'images d'un article lit d'abord la page TELLE QUE WIKIPÉDIA LA MONTRE (infobox, chapitres, galeries, images ajoutées par les modèles et Wikidata), puis ajoute les fichiers utilisés
+  par l'article ; suites de résultats suivies, fichiers renommés retrouvés. Toutes les images sont affichées : les icônes sont à la fin, avec le repère « Icône » (plus d'option qui les cache).
+- L'illustration qu'on RETIRE est gardée de côté : elle est reproposée en premier (repère « Retirée »), même si l'article ne la liste plus. L'image principale de Wikipédia est relue deux fois
+  avant d'abandonner, et un avertissement clair s'affiche si une partie des images n'a pas pu être chargée.
+- Catégorie automatique « Animée » : seuls les GIF RÉELLEMENT animés y entrent (nombre d'images lu dans les métadonnées de Wikimedia, à défaut dans le début du fichier). Un GIF fixe n'est jamais classé.
+  Vérification en arrière-plan (et tout de suite pour un paquet, une recherche ou une image choisie) ; un GIF pas encore vérifié n'est pas classé en attendant.
+
+Redimensionner/Positionner l'image actuelle ; cartes à la main et Hall
+- Fenêtre d'illustration (⟳) → section « Redimensionner/Positionner l'image actuelle » : éditeur WYSIWYG avec la carte en gros plan, l'image entourée de tirets et de poignées (la partie hors cadre est
+  grisée). On la déplace en la tirant (clic maintenu au milieu), on la redimensionne avec les poignées, la molette, le curseur ou le clavier (×1 à ×4) ; elle remplit toujours tout le cadre.
+- Le réglage est enregistré en base pour l'article ET le fichier d'image : un doublon de la même carte (nouveaux paquets) le reçoit automatiquement. Il apparaît tout de suite sur la carte, la carte
+  agrandie, les exports, et il est partagé avec les visiteurs du Hall (copié, sans écraser le tien, quand ils rapatrient la carte).
+- Cartes créées à la main : plus visibles NI prenables dans la collection partagée du Hall (listes, totaux, rangs, rapatriement) ; elles ne se voient que dans les vitrines du profil, en lecture seule.
+
+Éditeur d'image : réduire, cartes à la main, aperçu du Créateur
+- L'image d'illustration peut aussi être RÉDUITE à l'intérieur du cadre (de ×0,1 à ×4) : le fond de la carte apparaît autour. Le moteur d'édition (cadrage.js) et le CSS de la carte
+  utilisent les mêmes formules : ce qu'on voit dans l'éditeur est exactement ce qui s'affiche sur la carte, à toutes les tailles (vérifié de ×0,3 à ×4).
+- Les cartes créées à la main ont maintenant l'icône ⟳ : elle ouvre une fenêtre avec seulement la section « Redimensionner/Positionner l'image actuelle » (pas de liste d'images : elles n'ont pas d'article).
+- Créateur de cartes : sous l'aperçu, le bouton « ✥ Positionner/redimensionner l'image » active l'édition DIRECTEMENT dans la carte d'aperçu (contour en tirets, poignées, curseur, réinitialisation).
+  Le réglage est conservé quand le texte change et enregistré avec la carte à la validation.
+- Les anciens cadrages (zoom de 1 à 4, sans ratio) restent valables ; ils sont convertis au prochain enregistrement.
+
+Mention d'auteur et message de bienvenue
+- Bas de page : « Gratuit. Contenu encyclopédique issu de Wikipédia, sous licence libre (CC BY-SA). WikiFreeCards, logiciel sous licence MIT, Copyright (c) 2026 Damballah Oueddo. » ;
+  « WikiFreeCards », « licence MIT » et « Damballah Oueddo » sont des liens (nouvelle fenêtre). Le texte n'est plus modifiable : l'option a disparu de la Configuration.
+- Message de bienvenue au démarrage : logo en haut à gauche (taille fixe), texte d'accueil, lien GitHub en gras, case « Ne plus afficher ce message au démarrage » en bas à gauche.
+  Montré UNE SEULE FOIS par lancement du programme, avec la toute première page servie (aucune autre page, aucun autre onglet ni appareil ensuite, jusqu'à ce que le programme soit coupé puis relancé) ;
+  réglage « Message de bienvenue au démarrage » dans la Configuration (Apparence) pour le réactiver au prochain lancement.
+- Fichier LICENSE (MIT, Copyright (c) 2026 Damballah Oueddo) ajouté au projet.
+
+Doublons : cartes vraiment identiques
+- Deux cartes sont des doublons seulement si elles sont identiques : même titre, MÊME RANG, sous-titre et description, MÊME IMAGE et même taille/position de l'image (un L et un R ne sont jamais des doublons).
+  Changer l'image d'une des deux, ou la dimensionner autrement, ôte le bandeau « Doublon » des deux, tout de suite ; remettre la même image et le même cadrage le rétablit.
+- Le cadrage de l'image est maintenant propre à CHAQUE carte ; une nouvelle carte identique (même article, même image) reprend automatiquement le dernier réglage.
+
+Mention, contact et logo
+- Mention de bas de page : « … WikiFreeCards, logiciel sous licence MIT. » puis, à la ligne, « Copyright (c) 2026 Damballah Oueddo. » (liens conservés).
+- Configuration > Système : « Contact (e-mail) ou lien du projet », par défaut https://github.com/damballah/wikifreecards (envoyé à Wikimedia dans l'identification des requêtes).
+- Identité et logo : plus de choix d'image du logo (le logo est le fichier « logo.* » du dossier logo/, à remplacer à la main sous le même nom) ; sa hauteur est fixe : 128 px.
+
+Pagination et son en boucle
+- Changer de page avec la pagination (numéros, « Suivant », « Précédent ») fait TOUJOURS repartir du début de la page ou de la liste, que le clic vienne de la pagination du haut ou de celle
+  du bas : collection, corbeille, recherche, visite d'une collection du Hall et liste des collectionneurs du Hall.
+- Configuration > Sons : sous « Son : effet du paquet qui s'ouvre », une case « Jouer en boucle le son « effet du paquet qui s'ouvre » » : le son recommence tant que le paquet s'anime
+  (attente de Wikipédia comprise) et s'arrête dès que le paquet s'ouvre (ou en cas d'échec). Seul ce son peut boucler.
+
+Favicon (icône de l'onglet)
+- Nouveau dossier ico/ : le site y cherche favicon.ico (16×16 ou 32×32 ; un .ico peut contenir les deux tailles) ou favicon.png (32×32) et l'utilise comme icône d'onglet sur TOUTES les pages
+  (collection, paquets, recherche, corbeille, créateur, configuration, Hall, profil, page de connexion, lecteur de musique, page de secours sans serveur).
+- Si les deux fichiers existent, le .ico passe en premier ; le contenu est vérifié (vraie taille, vrai format, 256 Ko au plus, pas de lien symbolique) : un fichier invalide est ignoré
+  et le lancement indique pourquoi. Aucun redémarrage nécessaire.
+
+Halo retiré, doublons du Hall, image d'origine
+- Le halo doré des nouvelles cartes (et ses options de durée et de couleur) est retiré.
+- Doublons : les textes (titre, sous-titre, description) sont comparés « comme on les lit » : espaces insécables, traits d'union conditionnels, caractères invisibles et espaces multiples
+  ne comptent pas. Une carte rapatriée du Hall (dont le texte est nettoyé à l'arrivée) est donc reconnue comme doublon de la même carte que tu as déjà, si le rang, l'image et son cadrage sont les mêmes.
+- Choix de l'illustration : l'image d'ORIGINE de la carte (celle d'avant tout changement) est gardée et toujours reproposée, repérée « D'origine », même si l'article Wikipédia ne la propose plus
+  (page modifiée depuis le tirage de la carte).
+
+Images d'article : plus aucune ne disparaît
+- Les noms de fichiers avec parenthèses (très fréquents sur Commons : « Nom_(recadrée).jpg ») étaient coupés en lisant la page de l'article : ces images n'étaient pas listées. Corrigé.
+- Un dessin SVG pour lequel Wikimedia ne donne pas de vignette est listé quand même (son rendu PNG est déduit de l'adresse).
+- Mémoire des images vues : toute image apparue un jour dans la liste d'un article y reste (nouvelle table), même si une lecture suivante de l'article ne la retrouve pas ou si Wikipédia est
+  injoignable. La liste = les images lues maintenant (dans l'ordre de la page) + celles déjà vues + l'image actuelle + l'image d'origine de la carte.
+- Rien n'est ignoré en silence : la fenêtre indique « N fichiers ignorés » et, au survol, le nom de chaque fichier avec la raison.
+
+Images : toute image qu'une carte a eue reste dans la liste
+- Quand tu changes ou retires l'illustration d'une carte, l'image quittée est conservée dans la liste des images de l'article (en plus de l'image d'origine de la carte) ;
+  les images portées par tes AUTRES cartes du même article (corbeille comprise) y figurent aussi, même si l'article Wikipédia ne les propose plus.
+
+Fenêtre d'illustration : statuts et diagnostic
+- Tous les statuts d'une image s'affichent ENSEMBLE sur sa vignette : « Actuelle · Principale · D'origine » (une même image peut être les trois), « Icône » pour les pictogrammes.
+- Une ligne de diagnostic discrète, sous le nombre d'images, donne la version du programme et d'où viennent les images : lues dans la page de l'article, fichiers de l'article, ignorés (avec
+  raison au survol du texte d'en-tête), déjà vues, images d'autres cartes du même article, image principale de Wikipédia. Elle permet de vérifier quelle version tourne et de comprendre quand une image manque.
+- Le scénario complet des captures (Susan Sarandon : ouvrir, choisir une autre image, valider, rouvrir, remettre l'image de l'en-tête) est vérifié de bout en bout.
+
+Images d'article : trois sources et diagnostic complet
+- Les images de l'article sont maintenant lues de TROIS façons : l'adresse de chaque image de la page affichée, le LIEN vers sa page de fichier (présent même si l'image se charge autrement, ex. photo de
+  l'en-tête venue de Wikidata), et le service « media-list » de Wikipédia ; plus la liste des fichiers utilisés par le texte, la mémoire des images déjà vues, l'image d'origine et les images de tes autres cartes.
+- La ligne de diagnostic de la fenêtre détaille chaque étape (réunies, envoyées, refusées par sécurité, reçues et affichées par la page, avec le nom de celles qui seraient écartées) : si une image manque,
+  l'endroit où elle se perd est visible.
+
+Diagnostic masqué
+- Dans la fenêtre d'illustration, la ligne de diagnostic est masquée par défaut ; un petit bouton « ⓘ Diagnostic » (en bas, discret) l'affiche, et « ⓘ Masquer le diagnostic » la referme.
+
+Fiabilité
+- Nombreux tests automatiques (Python, JavaScript, navigateur) rejoués à chaque évolution.
