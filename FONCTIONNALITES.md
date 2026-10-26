@@ -1,6 +1,6 @@
-# WikiCartes — liste complète des fonctionnalités
+# WikiFreeCards — liste complète des fonctionnalités
 
-WikiCartes est un jeu de cartes à collectionner fabriqué avec des articles de **Wikipédia**. Il tourne **en local** sur ton ordinateur
+WikiFreeCards est un jeu de cartes à collectionner fabriqué avec des articles de **Wikipédia**. Il tourne **en local** sur ton ordinateur
 (`python main.py`) : un petit serveur local, ta page dans le navigateur, une base de données SQLite. Rien n'est hébergé ailleurs, et
 tout ce qui touche à ta collection reste chez toi, sauf ce que tu décides de partager (Hall des collections).
 
