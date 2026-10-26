@@ -11,36 +11,36 @@ WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregist
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://github.com/damballah/wikifreecards/blob/main/media/collection.png" width="300" alt="Image 1" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/collection.png" width="300" alt="Affichage de la collection" />
       <br />
       <sub><b>Affichage de la collection</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 2" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/profil-vitrines.png" width="300" alt="Vitrines du profil" />
       <br />
-      <sub><b>Titre / Légende 2</b></sub>
+      <sub><b>Vitrines du profil</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 3" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/themes-du-site.png" width="300" alt="Thèmes proposés" />
       <br />
-      <sub><b>Titre / Légende 3</b></sub>
+      <sub><b>Thèmes proposés</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 4" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/raretes-apparence.png" width="300" alt="Raretés-Apparence" />
       <br />
-      <sub><b>Titre / Légende 4</b></sub>
+      <sub><b>Raretés-Apparence</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 5" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/createur-saisie-manuelle.png" width="300" alt="Créateur de cartes personnalisées (saisie manuelle)" />
       <br />
-      <sub><b>Titre / Légende 5</b></sub>
+      <sub><b>Créateur de cartes personnalisées (saisie manuelle)</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 6" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/createur-depuis-url.png" width="300" alt="Créateur de cartes personnalisées (saisie auto via url)" />
       <br />
-      <sub><b>Titre / Légende 6</b></sub>
+      <sub><b>Créateur de cartes personnalisées (saisie auto via url)</b></sub>
     </td>
   </tr>
 </table>
