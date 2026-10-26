@@ -38,9 +38,9 @@ WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregist
       <sub><b>Créateur de cartes personnalisées (saisie manuelle)</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/damballah/wikifreecards/blob/main/media/createur-depuis-url.png" width="300" alt="Créateur de cartes personnalisées (saisie auto via url)" />
+      <img src="https://github.com/damballah/wikifreecards/blob/main/media/changer-illustration.png" width="300" alt="Changement de l'image d'illustration d'une carte" />
       <br />
-      <sub><b>Créateur de cartes personnalisées (saisie auto via url)</b></sub>
+      <sub><b>Changement de l'image d'illustration d'une carte</b></sub>
     </td>
   </tr>
 </table>
