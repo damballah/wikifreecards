@@ -8,6 +8,43 @@
 
 WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregistre tout dans un seul fichier (SQLite) et s'utilise depuis ton navigateur. Pas de compte, pas de serveur à louer, pas de publicité. Vibe codé avec Claude AI.
 
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 1" />
+      <br />
+      <sub><b>Titre / Légende 1</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 2" />
+      <br />
+      <sub><b>Titre / Légende 2</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 3" />
+      <br />
+      <sub><b>Titre / Légende 3</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 4" />
+      <br />
+      <sub><b>Titre / Légende 4</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 5" />
+      <br />
+      <sub><b>Titre / Légende 5</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://via.placeholder.com/300x200" width="200" alt="Image 6" />
+      <br />
+      <sub><b>Titre / Légende 6</b></sub>
+    </td>
+  </tr>
+</table>
+
 <!-- Ajoute ici une ou deux captures d'écran, par exemple :
 ![La collection](docs/images/collection.png)
 -->
