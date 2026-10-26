@@ -3,7 +3,7 @@
 **Collectionne les articles de Wikipédia comme des cartes.** Ouvre des paquets, découvre des articles tirés au hasard, classés du plus rare au plus commun selon leur nombre de vues, puis range-les dans ta collection locale.
 
 ![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)
-![Python 3.12 (https://img.shields.io/badge/python-3.12-yellow.svg)
+![Python Version](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 ![Fonctionne en local](https://img.shields.io/badge/donn%C3%A9es-100%25%20locales-green.svg)
 
 WikiFreeCards est un logiciel **local** : il tourne sur ton ordinateur, enregistre tout dans un seul fichier (SQLite) et s'utilise depuis ton navigateur. Pas de compte, pas de serveur à louer, pas de publicité.
