@@ -94,6 +94,9 @@ profil/          la photo de profil
 logo/  ico/      logo du site et icône d'onglet
 zuul/  gozer/    calques des cartes full-art
 data/            créé au premier lancement : collection et sauvegardes
+paquets/         différents designs de paquets
+sons/            sons d'évèements et musique fourni de base (Libres de droits)
+tor/             tor expert bundle fourni dans sa version 16.0‏ (tor 0.4.9.15)
 ```
 
 ## Licence
