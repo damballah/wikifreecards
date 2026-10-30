@@ -64,7 +64,7 @@ python main.py
 
 Le programme démarre un serveur local, ouvre la page dans ton navigateur, et tout se règle ensuite depuis la page **Configuration**. `Ctrl+C` dans le terminal l'arrête.
 
-Dépendances : `requests` et `cryptography`. `Pillow` est facultatif (réduction des images de paquets personnalisés). **Tor** n'est nécessaire que pour le Hall des collections.
+Dépendances : `requests` et `cryptography`. `Pillow` est facultatif (réduction des images de paquets personnalisés). **Tor** est fourni dans le dossier `tor/` et n'est nécessaire que pour le Hall des collections.
 
 ## Respect de Wikipédia
 
@@ -86,14 +86,20 @@ Ton pseudo et le nom de ta collection restent visibles de ceux qui te trouvent :
 ## Organisation du projet
 
 ```
-main.py          lancement
-wikicartes/      le code Python (serveur local, base, partage, rendu)
-static/          scripts et styles
-templates/       modèles de pages
-profil/          la photo de profil
-logo/  ico/      logo du site et icône d'onglet
-zuul/  gozer/    calques des cartes full-art
-data/            créé au premier lancement : collection et sauvegardes
+data/        créé au premier lancement : collection et sauvegardes
+export/      dossier où seront placés les exports png, pdf, docx
+gozer/       calques des cartes full-art (1)
+zuul/        calques des cartes full-art (2)
+ico/         icône d'onglet
+logo/        logo du site
+main.py      lancement
+paquets/     11 designs de paquets supplémentaires
+profil/      la photo de profil
+sons/        sons d'évènements et musique d'ambiance libres de droits
+static/      scripts et styles
+templates/   modèles de pages
+tor/         Tor Expert Bundle v16.0 (Tor 0.4.9.15)
+wikicartes/  le code Python (serveur local, base, partage, rendu)
 ```
 
 ## Licence
