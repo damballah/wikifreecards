@@ -1,8 +1,0 @@
-requests>=2.28
-cryptography>=41        # partage entre collectionneurs (Hall des collections) : signatures Ed25519
-
-# Facultatif : sans Pillow, tout fonctionne, mais l'image d'un paquet personnalisé n'est pas réduite ni redressée (photo de téléphone « couchée »).
-# Pillow>=9
-#
-# Hors pip : Python 3.9 ou plus récent (testé avec 3.12), SQLite 3.35 ou plus récent (inclus dans Python), le programme Tor pour le Hall des collections,
-# Edge ou Chrome pour la « fenêtre d'application ».
