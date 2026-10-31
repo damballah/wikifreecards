@@ -88,7 +88,8 @@ Ton pseudo et le nom de ta collection restent visibles de ceux qui te trouvent :
 ```
 data/        créé au premier lancement : collection et sauvegardes
 export/      dossier où seront placés les exports png, pdf, docx
-gozer/       calques des cartes full-art
+gozer/       calques des cartes full-art (1)
+zuul/        calques des cartes full-art (2)
 ico/         icône d'onglet
 logo/        logo du site
 main.py      lancement
@@ -99,7 +100,6 @@ static/      scripts et styles
 templates/   modèles de pages
 tor/         Tor Expert Bundle v16.0 (Tor 0.4.9.15)
 wikicartes/  le code Python (serveur local, base, partage, rendu)
-zuul/        calques des cartes full-art
 ```
 
 ## Licence
