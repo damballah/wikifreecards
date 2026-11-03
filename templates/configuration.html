@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="$theme_site" data-accent="$accent_mode" data-survol="$effet_survol" data-anim-zoom="$anim_zoom">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Configuration</title>
+  <style id="styles-cartes">
+$css
+  </style>
+</head>
+<body data-jeton="$jeton">
+  <main class="page page--config">
+    <header class="entete entete--config" style="$style_entete">
+      <div class="entete__haut">
+        <div class="entete__marque">
+          $logo_entete
+          <div class="entete__titre">
+            <h1>Configuration</h1>
+            <p class="entete__infos">Tous les réglages du jeu et du site. Ils sont enregistrés dans la base de données et retrouvés à chaque lancement.</p>
+          </div>
+        </div>
+        $actions
+      </div>
+    </header>
+
+$navigation
+
+    <form id="formulaire-config" novalidate>
+$sections
+    </form>
+
+    <div class="barre-config" role="region" aria-label="Enregistrer la configuration">
+      <button type="button" class="bouton-site bouton-site--principal" id="config-enregistrer">Enregistrer</button>
+      <button type="button" class="bouton-site" id="config-reinitialiser">Tout remettre aux valeurs de départ</button>
+      <span class="barre-config__etat" id="config-etat" role="status"></span>
+      <button type="button" class="bouton-site barre-config__haut" id="config-haut" title="Remonter tout en haut de la page"><span aria-hidden="true">↑</span> Remonter</button>
+    </div>
+  </main>
+$pied_page
+
+  <script>
+$js
+  </script>
+</body>
+</html>
