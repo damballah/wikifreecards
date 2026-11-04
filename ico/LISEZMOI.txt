@@ -1,0 +1,19 @@
+ICÔNE DE L'ONGLET (FAVICON)
+===========================
+
+Dépose ici l'icône qui s'affiche dans l'onglet du navigateur. Le fichier doit s'appeler "favicon" :
+
+  - favicon.ico : 16 x 16 ou 32 x 32 pixels (un .ico peut contenir les deux tailles) ;
+  - favicon.png : 32 x 32 pixels.
+
+Si les deux existent, le .ico est utilisé en premier (le .png sert si le .ico n'est pas valide).
+Majuscules ou minuscules, peu importe (Favicon.ICO fonctionne aussi).
+
+Le contenu du fichier est vérifié : un fichier qui n'a pas la bonne taille ou qui n'est pas une vraie
+image .ico / .png est ignoré, et le navigateur garde son icône par défaut. Au lancement,
+python main.py indique l'icône utilisée, ou pourquoi elle ne l'est pas.
+
+Aucun redémarrage n'est nécessaire : l'icône est relue à chaque chargement de page (un
+rafraîchissement de la page, parfois deux, suffit ; certains navigateurs gardent l'ancienne icône
+quelques instants en mémoire).
+Les autres fichiers de ce dossier (comme celui-ci) sont ignorés.
