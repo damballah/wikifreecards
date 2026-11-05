@@ -1,5 +1,3 @@
-# WikiFreeCards
-
 <center><img src="https://github.com/damballah/wikifreecards/blob/main/logo/logo.png" width="300" alt="WikiFreeCards" />
 
 **Un jeu de cartes à collectionner dont chaque carte est un article de Wikipédia.**
