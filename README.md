@@ -1,6 +1,6 @@
 # WikiFreeCards
 
-![WikiFreeCards](https://github.com/damballah/wikifreecards/blob/main/logo/logo.png)
+<img src="[url_de_l_image.png](https://github.com/damballah/wikifreecards/blob/main/logo/logo.png)" style="width: 50%;" alt="WikiFreeCards" />
 
 **Un jeu de cartes à collectionner dont chaque carte est un article de Wikipédia.**
 Ouvre des paquets, découvre des articles tirés au hasard, classés par rareté selon leur audience, et range-les dans ta collection.
